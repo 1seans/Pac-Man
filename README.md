@@ -1,15 +1,23 @@
-# Pac-Man
-## A JavaScript function that moves an image of a Pac-Man character across a web page, changing its appearance and direction at set intervals.
+# Pac-man
+A simple game in which you can move Pac-man back and forth.
 
-How to Run:
-To use this function, include it in your JavaScript code and call it repeatedly at a set interval using setInterval. The pos and direction variables should be initialized to track the character's position and direction. The pacArray variable should be defined as an array of arrays containing the file paths of the different Pac-Man images. The focus variable can be used to switch between the images in the array.
+## Getting Started
+The game is an HTML file that uses JavaScript for its logic. To run the game, simply open the HTML file in a web browser.
 
-Roadmap of future improvements:
-There are several potential improvements that could be made to this function in the future. For example, the movement of the Pac-Man character could be made more smooth or responsive by using different CSS properties or by implementing animation techniques. The function could also be modified to include additional features such as user interaction or game mechanics.
-
-License Information:
-This function is licensed under the MIT license. This means that you are free to use, modify, and distribute the code as long as you include the MIT license and copyright notice in any copies or derivative works.
-
+### How to Play
+You can move Pac-man by clicking on the image.
+The direction of movement changes when Pac-man reaches the edges of the screen.
+### Code Details
+The code contains the following components:
+A set of images used to animate Pac-man's movement.
+A JavaScript function Run() that changes the image source and position of Pac-man based on its direction.
+The checkPageBounds function which checks if Pac-man has reached the edge of the screen and changes its direction accordingly.
+The setInterval function which calls the Run() function repeatedly after a set interval of time.
+### How to make it better
+Add additional characters to play against.
+Incorporate a scoring system.
+Add more levels with increasing difficulty.
+Add sound effects and music.
 
 
 
